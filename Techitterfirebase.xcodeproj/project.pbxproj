@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B28B171A10434F8885EFDB6 /* Pods_Techitterfirebase_TechitterfirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBCFC58675C35367E9F68DE /* Pods_Techitterfirebase_TechitterfirebaseUITests.framework */; };
+		3F106EB8C4C6F972C2564178 /* Pods_Techitterfirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C5A95204C598601F0A732B /* Pods_Techitterfirebase.framework */; };
+		C4995C57C1DBA3400B06E31D /* Pods_TechitterfirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF368844DFCEF904BB522AAE /* Pods_TechitterfirebaseTests.framework */; };
+		F901B4C42519B0AE00FDDB5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */; };
+		F901B4C92519B0C200FDDB5C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901B4C82519B0C200FDDB5C /* PostViewController.swift */; };
 		F97D19762518A8A3000127AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19752518A8A3000127AB /* AppDelegate.swift */; };
 		F97D19782518A8A3000127AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19772518A8A3000127AB /* SceneDelegate.swift */; };
 		F97D197A2518A8A3000127AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19792518A8A3000127AB /* ViewController.swift */; };
@@ -15,6 +20,7 @@
 		F97D19822518A8A7000127AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97D19802518A8A7000127AB /* LaunchScreen.storyboard */; };
 		F97D198D2518A8A8000127AB /* TechitterfirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D198C2518A8A8000127AB /* TechitterfirebaseTests.swift */; };
 		F97D19982518A8A8000127AB /* TechitterfirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19972518A8A8000127AB /* TechitterfirebaseUITests.swift */; };
+		F97D19A925190070000127AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F97D19A825190070000127AB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02FFFD33FAF388284AA4A0B2 /* Pods-Techitterfirebase-TechitterfirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitterfirebase-TechitterfirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Techitterfirebase-TechitterfirebaseUITests/Pods-Techitterfirebase-TechitterfirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		347E95F1A8D20E6E64E28C4A /* Pods-TechitterfirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterfirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-TechitterfirebaseTests/Pods-TechitterfirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C8AC41B4633C8D6A1E2042 /* Pods-Techitterfirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitterfirebase.debug.xcconfig"; path = "Target Support Files/Pods-Techitterfirebase/Pods-Techitterfirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		AF368844DFCEF904BB522AAE /* Pods_TechitterfirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechitterfirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EADE3A84BBF147A40C581B /* Pods-TechitterfirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterfirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-TechitterfirebaseTests/Pods-TechitterfirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB6DA7299A73512D590EEEE /* Pods-Techitterfirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitterfirebase.release.xcconfig"; path = "Target Support Files/Pods-Techitterfirebase/Pods-Techitterfirebase.release.xcconfig"; sourceTree = "<group>"; };
+		DC0200DB2D31D30DD5E8314E /* Pods-Techitterfirebase-TechitterfirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitterfirebase-TechitterfirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-Techitterfirebase-TechitterfirebaseUITests/Pods-Techitterfirebase-TechitterfirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCBCFC58675C35367E9F68DE /* Pods_Techitterfirebase_TechitterfirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techitterfirebase_TechitterfirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C5A95204C598601F0A732B /* Pods_Techitterfirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techitterfirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F901B4C82519B0C200FDDB5C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		F97D19722518A8A3000127AB /* Techitterfirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techitterfirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97D19752518A8A3000127AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F97D19772518A8A3000127AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 		F97D19932518A8A8000127AB /* TechitterfirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechitterfirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97D19972518A8A8000127AB /* TechitterfirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechitterfirebaseUITests.swift; sourceTree = "<group>"; };
 		F97D19992518A8A8000127AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97D19A825190070000127AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F106EB8C4C6F972C2564178 /* Pods_Techitterfirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4995C57C1DBA3400B06E31D /* Pods_TechitterfirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B28B171A10434F8885EFDB6 /* Pods_Techitterfirebase_TechitterfirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0353D9AC4DBD5E66376F0F7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8AC41B4633C8D6A1E2042 /* Pods-Techitterfirebase.debug.xcconfig */,
+				CEB6DA7299A73512D590EEEE /* Pods-Techitterfirebase.release.xcconfig */,
+				02FFFD33FAF388284AA4A0B2 /* Pods-Techitterfirebase-TechitterfirebaseUITests.debug.xcconfig */,
+				DC0200DB2D31D30DD5E8314E /* Pods-Techitterfirebase-TechitterfirebaseUITests.release.xcconfig */,
+				C1EADE3A84BBF147A40C581B /* Pods-TechitterfirebaseTests.debug.xcconfig */,
+				347E95F1A8D20E6E64E28C4A /* Pods-TechitterfirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABC49F87BC76393386F42996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5A95204C598601F0A732B /* Pods_Techitterfirebase.framework */,
+				DCBCFC58675C35367E9F68DE /* Pods_Techitterfirebase_TechitterfirebaseUITests.framework */,
+				AF368844DFCEF904BB522AAE /* Pods_TechitterfirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F97D19692518A8A3000127AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				F97D198B2518A8A8000127AB /* TechitterfirebaseTests */,
 				F97D19962518A8A8000127AB /* TechitterfirebaseUITests */,
 				F97D19732518A8A3000127AB /* Products */,
+				0353D9AC4DBD5E66376F0F7E /* Pods */,
+				ABC49F87BC76393386F42996 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +148,13 @@
 				F97D19752518A8A3000127AB /* AppDelegate.swift */,
 				F97D19772518A8A3000127AB /* SceneDelegate.swift */,
 				F97D19792518A8A3000127AB /* ViewController.swift */,
+				F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */,
+				F901B4C82519B0C200FDDB5C /* PostViewController.swift */,
 				F97D197B2518A8A3000127AB /* Main.storyboard */,
 				F97D197E2518A8A7000127AB /* Assets.xcassets */,
 				F97D19802518A8A7000127AB /* LaunchScreen.storyboard */,
 				F97D19832518A8A7000127AB /* Info.plist */,
+				F97D19A825190070000127AB /* GoogleService-Info.plist */,
 			);
 			path = Techitterfirebase;
 			sourceTree = "<group>";
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97D199C2518A8A8000127AB /* Build configuration list for PBXNativeTarget "Techitterfirebase" */;
 			buildPhases = (
+				77114815CFD788518B1BA451 /* [CP] Check Pods Manifest.lock */,
 				F97D196E2518A8A3000127AB /* Sources */,
 				F97D196F2518A8A3000127AB /* Frameworks */,
 				F97D19702518A8A3000127AB /* Resources */,
+				A198D108627CDA26839538FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97D199F2518A8A8000127AB /* Build configuration list for PBXNativeTarget "TechitterfirebaseTests" */;
 			buildPhases = (
+				FB0185C0E2BD5EA8F07233A8 /* [CP] Check Pods Manifest.lock */,
 				F97D19842518A8A8000127AB /* Sources */,
 				F97D19852518A8A8000127AB /* Frameworks */,
 				F97D19862518A8A8000127AB /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97D19A22518A8A8000127AB /* Build configuration list for PBXNativeTarget "TechitterfirebaseUITests" */;
 			buildPhases = (
+				ACB6758438096B325900B3C0 /* [CP] Check Pods Manifest.lock */,
 				F97D198F2518A8A8000127AB /* Sources */,
 				F97D19902518A8A8000127AB /* Frameworks */,
 				F97D19912518A8A8000127AB /* Resources */,
+				AA8414B8CDF01AB046801644 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F97D19822518A8A7000127AB /* LaunchScreen.storyboard in Resources */,
+				F97D19A925190070000127AB /* GoogleService-Info.plist in Resources */,
 				F97D197F2518A8A7000127AB /* Assets.xcassets in Resources */,
 				F97D197D2518A8A3000127AB /* Main.storyboard in Resources */,
 			);
@@ -253,14 +308,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77114815CFD788518B1BA451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Techitterfirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A198D108627CDA26839538FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase/Pods-Techitterfirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase/Pods-Techitterfirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase/Pods-Techitterfirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8414B8CDF01AB046801644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase-TechitterfirebaseUITests/Pods-Techitterfirebase-TechitterfirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase-TechitterfirebaseUITests/Pods-Techitterfirebase-TechitterfirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Techitterfirebase-TechitterfirebaseUITests/Pods-Techitterfirebase-TechitterfirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB6758438096B325900B3C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Techitterfirebase-TechitterfirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0185C0E2BD5EA8F07233A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechitterfirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F97D196E2518A8A3000127AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F901B4C42519B0AE00FDDB5C /* LoginViewController.swift in Sources */,
 				F97D197A2518A8A3000127AB /* ViewController.swift in Sources */,
 				F97D19762518A8A3000127AB /* AppDelegate.swift in Sources */,
 				F97D19782518A8A3000127AB /* SceneDelegate.swift in Sources */,
+				F901B4C92519B0C200FDDB5C /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		F97D199D2518A8A8000127AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C8AC41B4633C8D6A1E2042 /* Pods-Techitterfirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +604,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.Techitterfirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = terminal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +613,7 @@
 		};
 		F97D199E2518A8A8000127AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB6DA7299A73512D590EEEE /* Pods-Techitterfirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.Techitterfirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = terminal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,6 +633,7 @@
 		};
 		F97D19A02518A8A8000127AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EADE3A84BBF147A40C581B /* Pods-TechitterfirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		F97D19A12518A8A8000127AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347E95F1A8D20E6E64E28C4A /* Pods-TechitterfirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		F97D19A32518A8A8000127AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FFFD33FAF388284AA4A0B2 /* Pods-Techitterfirebase-TechitterfirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		F97D19A42518A8A8000127AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0200DB2D31D30DD5E8314E /* Pods-Techitterfirebase-TechitterfirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
