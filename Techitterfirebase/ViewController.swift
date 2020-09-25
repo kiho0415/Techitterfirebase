@@ -19,6 +19,9 @@ class ViewController: UIViewController,UITableViewDataSource {
         super.viewDidLoad()
         
         table.dataSource = self
+        //ここで画面遷移して
+        let nextView = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        self.present(nextView, animated: true, completion: nil)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
