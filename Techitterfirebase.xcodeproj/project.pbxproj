@@ -12,6 +12,7 @@
 		C4995C57C1DBA3400B06E31D /* Pods_TechitterfirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF368844DFCEF904BB522AAE /* Pods_TechitterfirebaseTests.framework */; };
 		F901B4C42519B0AE00FDDB5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */; };
 		F901B4C92519B0C200FDDB5C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901B4C82519B0C200FDDB5C /* PostViewController.swift */; };
+		F901B51D251DB08100FDDB5C /* CellFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901B51C251DB08100FDDB5C /* CellFile.swift */; };
 		F97D19762518A8A3000127AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19752518A8A3000127AB /* AppDelegate.swift */; };
 		F97D19782518A8A3000127AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19772518A8A3000127AB /* SceneDelegate.swift */; };
 		F97D197A2518A8A3000127AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D19792518A8A3000127AB /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		F6C5A95204C598601F0A732B /* Pods_Techitterfirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techitterfirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F901B4C82519B0C200FDDB5C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		F901B51C251DB08100FDDB5C /* CellFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFile.swift; sourceTree = "<group>"; };
 		F97D19722518A8A3000127AB /* Techitterfirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techitterfirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97D19752518A8A3000127AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F97D19772518A8A3000127AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				F97D19792518A8A3000127AB /* ViewController.swift */,
 				F901B4C32519B0AE00FDDB5C /* LoginViewController.swift */,
 				F901B4C82519B0C200FDDB5C /* PostViewController.swift */,
+				F901B51C251DB08100FDDB5C /* CellFile.swift */,
 				F97D197B2518A8A3000127AB /* Main.storyboard */,
 				F97D197E2518A8A7000127AB /* Assets.xcassets */,
 				F97D19802518A8A7000127AB /* LaunchScreen.storyboard */,
@@ -421,6 +424,7 @@
 				F97D19762518A8A3000127AB /* AppDelegate.swift in Sources */,
 				F97D19782518A8A3000127AB /* SceneDelegate.swift in Sources */,
 				F901B4C92519B0C200FDDB5C /* PostViewController.swift in Sources */,
+				F901B51D251DB08100FDDB5C /* CellFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

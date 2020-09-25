@@ -10,6 +10,7 @@ import UIKit
 class LoginViewController: UIViewController {
     
     @IBOutlet var loginTextField:  UITextField!
+    var saveData: UserDefaults = UserDefaults.standard
     
 
     override func viewDidLoad() {
@@ -19,24 +20,15 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func login() {
-        if loginTextField.text == String("kihomori") {
-            //ここで画面遷移したいけどまだできない
+        if loginTextField.text == "kihomori" {
+            saveData.set(loginTextField.text, forKey: "username")
+            self.dismiss(animated: true, completion: nil)
             print("ok")
         }
     }
     
-    func  unwindViewCntroller(segue: UIStoryboardSegue) {
+    //func  unwindViewCntroller(segue: UIStoryboardSegue) {
         
-    }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    //}
 
 }
