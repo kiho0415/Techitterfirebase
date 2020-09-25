@@ -22,10 +22,11 @@ class PostViewController: UIViewController {
     }
     
     @IBAction func post() {
-        
         if  posttextfield.text != nil{
-            let post:  [String : Any]  = ["username": saveData.string(forKey: "username"), "date": ServerValue.timestamp(), "contents": posttextfield.text!]  //←この方がスッキリする
+            let post:  [String : Any]  = ["username":saveData.string(forKey: "username")!,"date": ServerValue.timestamp(), "contents": posttextfield.text!]  //←この方がスッキリする
             ref.child("post").childByAutoId().setValue(post)
+            //画面遷移
+            self.dismiss(animated: true, completion: nil)
         }
         
     }

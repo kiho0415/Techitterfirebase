@@ -23,7 +23,6 @@ class LoginViewController: UIViewController {
         if loginTextField.text == "kihomori" {
             saveData.set(loginTextField.text, forKey: "username")
             self.dismiss(animated: true, completion: nil)
-            print("ok")
         }
     }
     
