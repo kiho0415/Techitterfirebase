@@ -21,7 +21,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.read()//データを読み込むためのメソッド
+        //self.read()//データを読み込むためのメソッド
         table.dataSource = self
         table.delegate = self
         //ここで画面遷移してログイン画面へ
@@ -31,6 +31,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.read()
         //Cellの高さを調節
         table.rowHeight = 80
     }
@@ -50,7 +51,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         ref.child("post") .observeSingleEvent(of: .value, with: { [self] (snapshot) in
             // 受け取り
             let value = snapshot.value as? NSDictionary
-            guard let snapshotValue = value else { return }
+            guard let snapshotValue = value else { return } //該当しなければ以下の処理はしない
             for post in snapshotValue.keyEnumerator(){
                 guard let parsedPosts = snapshotValue[post] as? [String:Any] else { return }
           
