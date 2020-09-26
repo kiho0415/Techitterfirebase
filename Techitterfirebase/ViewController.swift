@@ -44,7 +44,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! SampleCell
         cell.postlabel?.text = String(contentarray[indexPath.row])
         cell.namelabel?.text = String(namearray[indexPath.row])
-        //cell.datelabel?.text = String(datearray[indexPath.row])
+        cell.datelabel?.text = String(datearray[indexPath.row])
         return cell
     }
     func read()  {
@@ -58,10 +58,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 print(parsedPosts["contents"]!)
                 print(parsedPosts["username"]!)
                 print(parsedPosts["date"]!)
-                //とりあえずcontentだけ入れる
+                
+                
                 contentarray.append(parsedPosts["contents"] as! String)
                 namearray.append(parsedPosts["username"] as! String)
-            //datearray.append(parsedPosts["date"] as! String)
+                datearray.append(parsedPosts["date"] as! String)
             }
             self.table.reloadData()
         }) { (error) in
