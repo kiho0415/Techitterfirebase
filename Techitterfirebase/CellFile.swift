@@ -11,7 +11,7 @@ import UIKit
 class SampleCell: UITableViewCell {
 
     @IBOutlet var namelabel: UILabel!
-    @IBOutlet var datalabel: UILabel!
+    @IBOutlet var datelabel: UILabel!
     @IBOutlet var postlabel: UILabel!
 
 }
