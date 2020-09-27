@@ -15,7 +15,7 @@ class PostViewController: UIViewController {
     
     var saveData: UserDefaults = UserDefaults.standard
     var ref : DatabaseReference! //データの書き込みを行うために必要
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()

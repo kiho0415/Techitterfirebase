@@ -14,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Ch-9L-ARN" customClass="LoginViewController" customModule="Techitterfirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jQT-YH-AqF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tSz-kx-tTZ">
@@ -101,12 +101,12 @@
                     <navigationItem key="navigationItem" title="Title" id="FoN-si-OSZ">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="DqQ-Er-Eja">
                             <connections>
-                                <segue destination="5Ch-9L-ARN" kind="presentation" id="ECe-gt-jty"/>
+                                <segue destination="5Ch-9L-ARN" kind="presentation" modalPresentationStyle="fullScreen" id="ECe-gt-jty"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.pencil" catalog="system" id="DBL-Ph-fnk">
                             <connections>
-                                <segue destination="asp-Kk-7kw" kind="presentation" id="4NE-TI-a6g"/>
+                                <segue destination="asp-Kk-7kw" kind="presentation" modalPresentationStyle="fullScreen" id="4NE-TI-a6g"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -123,7 +123,7 @@
             <objects>
                 <viewController id="asp-Kk-7kw" customClass="PostViewController" customModule="Techitterfirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PR2-yT-NBW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWR-Wc-CBw">

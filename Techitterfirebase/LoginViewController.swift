@@ -12,10 +12,10 @@ class LoginViewController: UIViewController {
     @IBOutlet var loginTextField:  UITextField!
     var saveData: UserDefaults = UserDefaults.standard
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -25,9 +25,4 @@ class LoginViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
     }
-    
-    //func  unwindViewCntroller(segue: UIStoryboardSegue) {
-        
-    //}
-
 }

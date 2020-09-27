@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 class SampleCell: UITableViewCell {
-
+    
     @IBOutlet var namelabel: UILabel!
     @IBOutlet var datelabel: UILabel!
     @IBOutlet var postlabel: UILabel!
-
+    
 }

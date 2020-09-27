@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     var contentarray = [String]()//データを入れておく配列。これをtableviewで表示する
     var namearray = [String]()
     var datearray = [String]()
-
+    
     let ref = Database.database().reference() //Firebaseのルートを宣言しておく
     
     override func viewDidLoad() {
@@ -48,18 +48,21 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return cell
     }
     func read()  {
+        //配列に要素があったら一度空にする
+        if contentarray != []{
+            contentarray.removeAll()
+            namearray.removeAll()
+            datearray.removeAll()
+        }
         ref.child("post") .observeSingleEvent(of: .value, with: { [self] (snapshot) in
             // 受け取り
             let value = snapshot.value as? NSDictionary
             guard let snapshotValue = value else { return } //該当しなければ以下の処理はしない
             for post in snapshotValue.keyEnumerator(){
                 guard let parsedPosts = snapshotValue[post] as? [String:Any] else { return }
-          
+                
                 print(parsedPosts["contents"]!)
-                print(parsedPosts["username"]!)
-                print(parsedPosts["date"]!)
-                
-                
+
                 contentarray.append(parsedPosts["contents"] as! String)
                 namearray.append(parsedPosts["username"] as! String)
                 datearray.append(parsedPosts["date"] as! String)
@@ -71,4 +74,4 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
     }
 }
-            
+
